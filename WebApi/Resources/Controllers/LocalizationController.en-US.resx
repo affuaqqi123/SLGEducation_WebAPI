@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="@Copyrights:en-US" xml:space="preserve">
+    <value>@Copyrights</value>
+  </data>
+  <data name="About Skeidar:en-US" xml:space="preserve">
+    <value>About Skeidar</value>
+  </data>
+  <data name="Actions:en-US" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Add a New Course:en-US" xml:space="preserve">
+    <value>Add a New Course</value>
+  </data>
+  <data name="Add a new step:en-US" xml:space="preserve">
+    <value>Add a new step</value>
+  </data>
+  <data name="Add a New User:en-US" xml:space="preserve">
+    <value>Add a New User</value>
+  </data>
+  <data name="Add a New UserGroup:en-US" xml:space="preserve">
+    <value>Add a New UserGroup</value>
+  </data>
+  <data name="Add content here:en-US" xml:space="preserve">
+    <value>Add content here</value>
+  </data>
+  <data name="Add Course:en-US" xml:space="preserve">
+    <value>Add Course</value>
+  </data>
+  <data name="Add Description here:en-US" xml:space="preserve">
+    <value>Add Description here</value>
+  </data>
+  <data name="Add Group:en-US" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="Add New Question:en-US" xml:space="preserve">
+    <value>Add New Question</value>
+  </data>
+  <data name="Add New Quiz:en-US" xml:space="preserve">
+    <value>Add New Quiz</value>
+  </data>
+  <data name="Add Question:em-US" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
+  <data name="Add Question:en-US" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
+  <data name="Add Questions:en-US" xml:space="preserve">
+    <value>Add Questions</value>
+  </data>
+  <data name="Add Quiz:en-US" xml:space="preserve">
+    <value>Add Quiz</value>
+  </data>
+  <data name="Add Step:en-US" xml:space="preserve">
+    <value>Add Step</value>
+  </data>
+  <data name="Add User:en-US" xml:space="preserve">
+    <value>Add User</value>
+  </data>
+  <data name="Add UserGroup:en-US" xml:space="preserve">
+    <value>Add UserGroup</value>
+  </data>
+  <data name="Add:en-US" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Are you sure to delete this Course Step:en-US" xml:space="preserve">
+    <value>Are you sure to delete this Course Step</value>
+  </data>
+  <data name="Are you sure to delete this Course:en-US" xml:space="preserve">
+    <value>Are you sure to delete this Course</value>
+  </data>
+  <data name="Are you sure to delete this Course?:en-US" xml:space="preserve">
+    <value>Are you sure to delete this Course?</value>
+  </data>
+  <data name="Are you sure to delete this Group?:en-US" xml:space="preserve">
+    <value>Are you sure to delete this Group?</value>
+  </data>
+  <data name="Are you sure to delete this User:en-US" xml:space="preserve">
+    <value>Are you sure to delete this User</value>
+  </data>
+  <data name="Are you sure to delete this UserGroup?:en-US" xml:space="preserve">
+    <value>Are you sure to delete this UserGroup?</value>
+  </data>
+  <data name="Are you sure you want to delete this question?:en-US" xml:space="preserve">
+    <value>Are you sure you want to delete this question?</value>
+  </data>
+  <data name="Are you sure you want to delete this quiz?:en-US" xml:space="preserve">
+    <value>Are you sure you want to delete this quiz?</value>
+  </data>
+  <data name="Are you sure you want to exit the quiz? Your progress will not be saved.:en-US" xml:space="preserve">
+    <value>Are you sure you want to exit the quiz? Your progress will not be saved.</value>
+  </data>
+  <data name="Are you sure you want to exit the quiz?:en-US" xml:space="preserve">
+    <value>Are you sure you want to exit the quiz?</value>
+  </data>
+  <data name="Cancel:en-US" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Clear Filters:en-US" xml:space="preserve">
+    <value>Clear Filters</value>
+  </data>
+  <data name="Close:en-US" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Correct Option is required:en-US" xml:space="preserve">
+    <value>Correct Option is required</value>
+  </data>
+  <data name="Correct Option:en-US" xml:space="preserve">
+    <value>Correct Option</value>
+  </data>
+  <data name="Course Description:en-US" xml:space="preserve">
+    <value>Course Description</value>
+  </data>
+  <data name="Course Group:en-US" xml:space="preserve">
+    <value>Course Group</value>
+  </data>
+  <data name="Course has been added:en-US" xml:space="preserve">
+    <value>Course has been added</value>
+  </data>
+  <data name="Course has been deleted:en-US" xml:space="preserve">
+    <value>Course has been deleted</value>
+  </data>
+  <data name="Course has been updated:en-US" xml:space="preserve">
+    <value>Course has been updated</value>
+  </data>
+  <data name="Course Name:en-US" xml:space="preserve">
+    <value>Course Name</value>
+  </data>
+  <data name="Course Step has been deleted:en-US" xml:space="preserve">
+    <value>Course Step has been deleted</value>
+  </data>
+  <data name="Course Steps:en-US" xml:space="preserve">
+    <value>Course Steps</value>
+  </data>
+  <data name="Course submitted successfully:en-US" xml:space="preserve">
+    <value>Course submitted successfully</value>
+  </data>
+  <data name="CourseName is required:en-US" xml:space="preserve">
+    <value>CourseName is required</value>
+  </data>
+  <data name="CourseName:en-US" xml:space="preserve">
+    <value>CourseName</value>
+  </data>
+  <data name="Courses Report:en-US" xml:space="preserve">
+    <value>Courses Report</value>
+  </data>
+  <data name="Courses:en-US" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="Create a new Group:en-US" xml:space="preserve">
+    <value>Create a new Group</value>
+  </data>
+  <data name="Create Group:en-US" xml:space="preserve">
+    <value>Create Group</value>
+  </data>
+  <data name="Create:en-US" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Dashboard:en-US" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Delete:en-US" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Description:en-US" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Design and quality:en-US" xml:space="preserve">
+    <value>Design and quality</value>
+  </data>
+  <data name="Details:en-US" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Edit Question:en-US" xml:space="preserve">
+    <value>Edit Question</value>
+  </data>
+  <data name="Edit Quiz:en-US" xml:space="preserve">
+    <value>Edit Quiz</value>
+  </data>
+  <data name="Edit the Step Title:en-US" xml:space="preserve">
+    <value>Edit the Step Title</value>
+  </data>
+  <data name="Edit:en-US" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Email has been sent:en-US" xml:space="preserve">
+    <value>Email has been sent</value>
+  </data>
+  <data name="Email is required:en-US" xml:space="preserve">
+    <value>Email is required</value>
+  </data>
+  <data name="Email:en-US" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Enter Course Description:en-US" xml:space="preserve">
+    <value>Enter Course Description</value>
+  </data>
+  <data name="Enter Course Name:en-US" xml:space="preserve">
+    <value>Enter Course Name</value>
+  </data>
+  <data name="Enter Email:en-US" xml:space="preserve">
+    <value>Enter Email</value>
+  </data>
+  <data name="Enter Group Name:en-US" xml:space="preserve">
+    <value>Enter Group Name</value>
+  </data>
+  <data name="Enter Name:en-US" xml:space="preserve">
+    <value>Enter name</value>
+  </data>
+  <data name="Enter Password:en-US" xml:space="preserve">
+    <value>Enter Password</value>
+  </data>
+  <data name="Enter Step Number:en-US" xml:space="preserve">
+    <value>Enter Step Number</value>
+  </data>
+  <data name="Enter Step Title:en-US" xml:space="preserve">
+    <value>Enter Step Title</value>
+  </data>
+  <data name="Enter Store ID:en-US" xml:space="preserve">
+    <value>Enter Store ID</value>
+  </data>
+  <data name="Enter your password:en-US" xml:space="preserve">
+    <value>Enter your password</value>
+  </data>
+  <data name="Enter your username:en-US" xml:space="preserve">
+    <value>Enter your username</value>
+  </data>
+  <data name="Error while adding new step, please try again.:en-US" xml:space="preserve">
+    <value>Error while adding new step, please try again.</value>
+  </data>
+  <data name="Exit:en-US" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="Failed to delete question:en-US" xml:space="preserve">
+    <value>Failed to delete question</value>
+  </data>
+  <data name="Failed to send email, Please check if email address is correct:en-US" xml:space="preserve">
+    <value>Failed to send email, Please check if email address is correct</value>
+  </data>
+  <data name="Failed to submit course:en-US" xml:space="preserve">
+    <value>Failed to submit course</value>
+  </data>
+  <data name="Failed to update question:en-US" xml:space="preserve">
+    <value>Failed to update question</value>
+  </data>
+  <data name="File has been deleted:en-US" xml:space="preserve">
+    <value>File has been deleted</value>
+  </data>
+  <data name="Group has been added:en-US" xml:space="preserve">
+    <value>Group has been added</value>
+  </data>
+  <data name="Group has been deleted:en-US" xml:space="preserve">
+    <value>Group has been deleted</value>
+  </data>
+  <data name="Group has been updated:en-US" xml:space="preserve">
+    <value>Group has been updated</value>
+  </data>
+  <data name="Group Name:en-US" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="Group:en-US" xml:space="preserve">
+    <value>Group</value>
+  </data>
+  <data name="GroupName is required:en-US" xml:space="preserve">
+    <value>GroupName is required</value>
+  </data>
+  <data name="Groups:en-US" xml:space="preserve">
+    <value>Groups</value>
+  </data>
+  <data name="Image File:en-US" xml:space="preserve">
+    <value>Image File</value>
+  </data>
+  <data name="Image:en-US" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Invalid email format:en-US" xml:space="preserve">
+    <value>Invalid email format</value>
+  </data>
+  <data name="List of Courses:en-US" xml:space="preserve">
+    <value>List of Courses</value>
+  </data>
+  <data name="List of Groups:en-US" xml:space="preserve">
+    <value>List of Groups</value>
+  </data>
+  <data name="List of Questions:en-US" xml:space="preserve">
+    <value>List of Questions</value>
+  </data>
+  <data name="List of Quizzes:en-US" xml:space="preserve">
+    <value>List of Quizzes</value>
+  </data>
+  <data name="List of UserGroups:en-US" xml:space="preserve">
+    <value>List of UserGroups</value>
+  </data>
+  <data name="List of Users:en-US" xml:space="preserve">
+    <value>List of Users</value>
+  </data>
+  <data name="Loading....Please wait:en-US" xml:space="preserve">
+    <value>Loading....Please wait</value>
+  </data>
+  <data name="Loading...Please wait:en-US" xml:space="preserve">
+    <value>Loading...Please wait</value>
+  </data>
+  <data name="Loading:en-US" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="Login:en-US" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Logout:en-US" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="Name is required:en-US" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+  <data name="Name:en-US" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Network response was not ok:en-US" xml:space="preserve">
+    <value>Network response was not ok</value>
+  </data>
+  <data name="New question has been added:en-US" xml:space="preserve">
+    <value>New question has been added</value>
+  </data>
+  <data name="New quiz has been added:en-US" xml:space="preserve">
+    <value>New quiz has been added</value>
+  </data>
+  <data name="New step added successfully.:en-US" xml:space="preserve">
+    <value>New step added successfully.</value>
+  </data>
+  <data name="Next:en-US" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="No Courses Found, please try again:en-US" xml:space="preserve">
+    <value>No Courses Found, please try again</value>
+  </data>
+  <data name="No Data Found:en-US" xml:space="preserve">
+    <value>No Data Found</value>
+  </data>
+  <data name="No Data:en-US" xml:space="preserve">
+    <value>No Data</value>
+  </data>
+  <data name="No Group Found:en-US" xml:space="preserve">
+    <value>No Group Found</value>
+  </data>
+  <data name="No User Found:en-US" xml:space="preserve">
+    <value>No User Found</value>
+  </data>
+  <data name="No UserGroups Found, please try again:en-US" xml:space="preserve">
+    <value>No UserGroups Found, please try again</value>
+  </data>
+  <data name="No video available for this step:en-US" xml:space="preserve">
+    <value>No video available for this step</value>
+  </data>
+  <data name="Option 1:en-US" xml:space="preserve">
+    <value>Option 1</value>
+  </data>
+  <data name="Option 2:en-US" xml:space="preserve">
+    <value>Option 2</value>
+  </data>
+  <data name="Option 3:en-US" xml:space="preserve">
+    <value>Option 3</value>
+  </data>
+  <data name="Option 4:en-US" xml:space="preserve">
+    <value>Option 4</value>
+  </data>
+  <data name="Option1 is required:en-US" xml:space="preserve">
+    <value>Option1 is required</value>
+  </data>
+  <data name="Option2 is required:en-US" xml:space="preserve">
+    <value>Option2 is required</value>
+  </data>
+  <data name="Option3 is required:en-US" xml:space="preserve">
+    <value>Option3 is required</value>
+  </data>
+  <data name="Option4 is required:en-US" xml:space="preserve">
+    <value>Option4 is required</value>
+  </data>
+  <data name="Options:en-US" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Password is required:en-US" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="Password must contain at least 8 characters, including one uppercase, one number, and one symbol:en-US" xml:space="preserve">
+    <value>Password must contain at least 8 characters, including one uppercase, one number, and one symbol</value>
+  </data>
+  <data name="Password:en-US" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Please complete the video before proceeding to the next step:en-US" xml:space="preserve">
+    <value>Please complete the video before proceeding to the next step</value>
+  </data>
+  <data name="Please complete the video before submitting:en-US" xml:space="preserve">
+    <value>Please complete the video before submitting</value>
+  </data>
+  <data name="Please enter only numbers:en-US" xml:space="preserve">
+    <value>Please enter only numbers</value>
+  </data>
+  <data name="Please enter valid UserName and Password:en-US" xml:space="preserve">
+    <value>Please enter valid UserName and Password</value>
+  </data>
+  <data name="Please fill in all the required fields.:en-US" xml:space="preserve">
+    <value>Please fill in all the required fields.</value>
+  </data>
+  <data name="Please make sure User is not assigned any other Group:en-US" xml:space="preserve">
+    <value>Please make sure User is not assigned any other Group</value>
+  </data>
+  <data name="Please refresh the page:en-US" xml:space="preserve">
+    <value>Please refresh the page</value>
+  </data>
+  <data name="Please select a CourseName:en-US" xml:space="preserve">
+    <value>Please select a CourseName</value>
+  </data>
+  <data name="Please select an option before proceeding to the next question.:en-US" xml:space="preserve">
+    <value>Please select an option before proceeding to the next question.</value>
+  </data>
+  <data name="Please wait, it is loading:en-US" xml:space="preserve">
+    <value>Please wait, it is loading</value>
+  </data>
+  <data name="Please wait,Loading...:en-US" xml:space="preserve">
+    <value>Please wait,Loading...</value>
+  </data>
+  <data name="Previous:en-US" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="Progress:en-US" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="Question has been deleted:en-US" xml:space="preserve">
+    <value>Question has been deleted</value>
+  </data>
+  <data name="Question has been updated:en-US" xml:space="preserve">
+    <value>Question has been updated</value>
+  </data>
+  <data name="Question Number should be more than 0:en-US" xml:space="preserve">
+    <value>Question Number should be more than 0</value>
+  </data>
+  <data name="Question Number:en-US" xml:space="preserve">
+    <value>Question Number</value>
+  </data>
+  <data name="Question Text is required:en-US" xml:space="preserve">
+    <value>Question Text is required</value>
+  </data>
+  <data name="Question Text:en-US" xml:space="preserve">
+    <value>Question Text</value>
+  </data>
+  <data name="QuestionNo:en-US" xml:space="preserve">
+    <value>QuestionNo</value>
+  </data>
+  <data name="Quiz has been deleted:en-US" xml:space="preserve">
+    <value>Quiz has been deleted</value>
+  </data>
+  <data name="Quiz has been updated:en-US" xml:space="preserve">
+    <value>Quiz has been updated</value>
+  </data>
+  <data name="Quiz Title is required:en-US" xml:space="preserve">
+    <value>Quiz Title is required</value>
+  </data>
+  <data name="Quiz Title:en-US" xml:space="preserve">
+    <value>Quiz Title</value>
+  </data>
+  <data name="Quiz:en-US" xml:space="preserve">
+    <value>Quiz</value>
+  </data>
+  <data name="Remove Image:en-US" xml:space="preserve">
+    <value>Remove Image</value>
+  </data>
+  <data name="Remove Video:en-US" xml:space="preserve">
+    <value>Remove Video</value>
+  </data>
+  <data name="Report:en-US" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Role is required:en-US" xml:space="preserve">
+    <value>Role is required</value>
+  </data>
+  <data name="Role:en-US" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Save Changes:en-US" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="Save:en-US" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Saved Successfully:en-US" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="Search by CourseName:en-US" xml:space="preserve">
+    <value>Search by CourseName</value>
+  </data>
+  <data name="Search by Role:en-US" xml:space="preserve">
+    <value>Search by Role</value>
+  </data>
+  <data name="Search by UserName or GroupName:en-US" xml:space="preserve">
+    <value>Search by UserName or GroupName</value>
+  </data>
+  <data name="Search by Username:en-US" xml:space="preserve">
+    <value>Search by Username</value>
+  </data>
+  <data name="Search:en-US" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Select Correct Option:en-US" xml:space="preserve">
+    <value>Select Correct Option</value>
+  </data>
+  <data name="Select Course Name:en-US" xml:space="preserve">
+    <value>Select Course Name</value>
+  </data>
+  <data name="Select Course:en-US" xml:space="preserve">
+    <value>Select Course</value>
+  </data>
+  <data name="Select Group:en-US" xml:space="preserve">
+    <value>Select Group</value>
+  </data>
+  <data name="Select Role:en-US" xml:space="preserve">
+    <value>Select Role</value>
+  </data>
+  <data name="Select User:en-US" xml:space="preserve">
+    <value>Select User</value>
+  </data>
+  <data name="Selected Image Preview:en-US" xml:space="preserve">
+    <value>Selected Image Preview</value>
+  </data>
+  <data name="Send:en-US" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Since 1912, Skeidar has helped Norwegians to have a good time at home. We offer a wide range of modern quality furniture and stylish interior solutions, and are a specialist company that assists thousands of customers every day by being helpful, professional and available.&#xD;&#xA;&#xD;&#xA;Skeidar designs and develops a wide range of own products and brands, while at the same time we work closely with several of the Nordics' leading furniture and mattress brands such as Stressless, Jensen, Svane, Formfin, Brunstad, Conform, Hjellegjerde, Fagerheim, Wonderland, Hødnebø, HÅG, Flexlux, XOV, Kleppe, Furninova, Dynoform and Sacco.:en-US" xml:space="preserve">
+    <value>Since 1912, Skeidar has helped Norwegians to have a good time at home. We offer a wide range of modern quality furniture and stylish interior solutions, and are a specialist company that assists thousands of customers every day by being helpful, professional and available.
+
+Skeidar designs and develops a wide range of own products and brands, while at the same time we work closely with several of the Nordics' leading furniture and mattress brands such as Stressless, Jensen, Svane, Formfin, Brunstad, Conform, Hjellegjerde, Fagerheim, Wonderland, Hødnebø, HÅG, Flexlux, XOV, Kleppe, Furninova, Dynoform and Sacco.</value>
+  </data>
+  <data name="Since 1912, Skeidar has helped Norwegians to have a good time at home. We offer a wide range of modern quality furniture and stylish interior solutions, and are a specialist company that assists thousands of customers every day by being helpful, professional and available.:en-US" xml:space="preserve">
+    <value>Since 1912, Skeidar has helped Norwegians to have a good time at home. We offer a wide range of modern quality furniture and stylish interior solutions, and are a specialist company that assists thousands of customers every day by being helpful, professional and available.</value>
+  </data>
+  <data name="Skeidar designs and develops a wide range of own products and brands, while at the same time we work closely with several of the Nordics' leading furniture and mattress brands such as Stressless, Jensen, Svane, Formfin, Brunstad, Conform, Hjellegjerde, Fagerheim, Wonderland, Hødnebø, HÅG, Flexlux, XOV, Kleppe, Furninova, Dynoform and Sacco.:en-US" xml:space="preserve">
+    <value>Skeidar designs and develops a wide range of own products and brands, while at the same time we work closely with several of the Nordics' leading furniture and mattress brands such as Stressless, Jensen, Svane, Formfin, Brunstad, Conform, Hjellegjerde, Fagerheim, Wonderland, Hødnebø, HÅG, Flexlux, XOV, Kleppe, Furninova, Dynoform and Sacco.</value>
+  </data>
+  <data name="Something went wrong while loading the page:en-US" xml:space="preserve">
+    <value>Something went wrong while loading the page</value>
+  </data>
+  <data name="Sorry, you did not select the step, please refresh the page and then select a step and proceed:en-US" xml:space="preserve">
+    <value>Sorry, you did not select the step, please refresh the page and then select a step and proceed</value>
+  </data>
+  <data name="StartCourse:en-US" xml:space="preserve">
+    <value>StartCourse</value>
+  </data>
+  <data name="Status:en-US" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Step Number should be more than 0:en-US" xml:space="preserve">
+    <value>Step Number should be more than 0</value>
+  </data>
+  <data name="Step Title has been updated:en-US" xml:space="preserve">
+    <value>Step Title has been updated</value>
+  </data>
+  <data name="Store Location:en-US" xml:space="preserve">
+    <value>Store Location</value>
+  </data>
+  <data name="StoreID is required:en-US" xml:space="preserve">
+    <value>StoreID is required</value>
+  </data>
+  <data name="StoreID:en-US" xml:space="preserve">
+    <value>StoreID</value>
+  </data>
+  <data name="Submit:en-US" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="There was an issue to get the data:en-US" xml:space="preserve">
+    <value>There was an issue to get the data</value>
+  </data>
+  <data name="There was quickly talk of the clever cabinet maker who had opened his own workshop in Ski. Customers came from far and wide to buy modern and solid furniture from A. Andresen and his small family business. This was in 1912, and slowly but surely he expanded the workshop as the orders and customers increased.:en-US" xml:space="preserve">
+    <value>There was quickly talk of the clever cabinet maker who had opened his own workshop in Ski. Customers came from far and wide to buy modern and solid furniture from A. Andresen and his small family business. This was in 1912, and slowly but surely he expanded the workshop as the orders and customers increased.</value>
+  </data>
+  <data name="This is our story:en-US" xml:space="preserve">
+    <value>This is our story</value>
+  </data>
+  <data name="This is Skeidar:en-US" xml:space="preserve">
+    <value>This is Skeidar</value>
+  </data>
+  <data name="Title:en-US" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Update details of the Course:en-US" xml:space="preserve">
+    <value>Update details of the Course</value>
+  </data>
+  <data name="Update details of the Group:en-US" xml:space="preserve">
+    <value>Update details of the Group</value>
+  </data>
+  <data name="Update details of the User:en-US" xml:space="preserve">
+    <value>Update details of the User</value>
+  </data>
+  <data name="Update details of the UserGroup:en-US" xml:space="preserve">
+    <value>Update details of the UserGroup</value>
+  </data>
+  <data name="Update details:en-US" xml:space="preserve">
+    <value>Update details</value>
+  </data>
+  <data name="User Email:en-US" xml:space="preserve">
+    <value>User Email</value>
+  </data>
+  <data name="User has been added:en-US" xml:space="preserve">
+    <value>User has been added</value>
+  </data>
+  <data name="User has been deleted:en-US" xml:space="preserve">
+    <value>User has been deleted</value>
+  </data>
+  <data name="User has been updated:en-US" xml:space="preserve">
+    <value>User has been updated</value>
+  </data>
+  <data name="User Name:en-US" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="User Password:en-US" xml:space="preserve">
+    <value>User Password</value>
+  </data>
+  <data name="User Role:en-US" xml:space="preserve">
+    <value>User Role</value>
+  </data>
+  <data name="User:en-US" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="UserGroup has been added:en-US" xml:space="preserve">
+    <value>UserGroup has been added</value>
+  </data>
+  <data name="UserGroup has been deleted:en-US" xml:space="preserve">
+    <value>UserGroup has been deleted</value>
+  </data>
+  <data name="UserGroup has been updated:en-US" xml:space="preserve">
+    <value>UserGroup has been updated</value>
+  </data>
+  <data name="UserGroup:en-US" xml:space="preserve">
+    <value>UserGroup</value>
+  </data>
+  <data name="UserName:en-US" xml:space="preserve">
+    <value>UserName</value>
+  </data>
+  <data name="Users:en-US" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="Video:en-US" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="We design for better homes. This means that we set high standards for the entire value chain. To our own design, to the materials, to colors and shades, to manufacturing and production. In addition, we are almost morbidly concerned with how our furniture looks in context - in Norwegian homes, in the cabin, together with other furniture and objects. What fits together? What trends are coming, what are fads and what are enduring styles and values? What exciting combinations, and what are smart solutions? We spend our entire working day on this. We simply design for you to have an even better life where you live it. At home.:en-US" xml:space="preserve">
+    <value>We design for better homes. This means that we set high standards for the entire value chain. To our own design, to the materials, to colors and shades, to manufacturing and production. In addition, we are almost morbidly concerned with how our furniture looks in context - in Norwegian homes, in the cabin, together with other furniture and objects. What fits together? What trends are coming, what are fads and what are enduring styles and values? What exciting combinations, and what are smart solutions? We spend our entire working day on this. We simply design for you to have an even better life where you live it. At home.</value>
+  </data>
+  <data name="Welcome:en-US" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="You have already completed the course:en-US" xml:space="preserve">
+    <value>You have already completed the course</value>
+  </data>
+  <data name="You have to complete the Course before start the Quiz:en-US" xml:space="preserve">
+    <value>You have to complete the Course before start the Quiz</value>
+  </data>
+  <data name="You Scored:  :en-US" xml:space="preserve">
+    <value>You Scored:</value>
+  </data>
+  <data name="Your browser does not support the video tag:en-US" xml:space="preserve">
+    <value>Your browser does not support the video tag</value>
+  </data>
+</root>
